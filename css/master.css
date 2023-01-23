@@ -37,11 +37,11 @@
 }
 
 
-.cta.debug {
+.above.debug {
     background-color: #00008b;
 }
 
-.cta.debug .row .cta-container{
+.above.debug .row .above-container{
     min-height: 500px;
     background-color: #ee82ee;
 }
@@ -142,13 +142,13 @@
 /* CALL TO ACTION */
 
 
-.cta .row{
+.above .row{
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.cta .row .cta-container{
+.above .row .above-container{
     width: 70%;
 }
 
