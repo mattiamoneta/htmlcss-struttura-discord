@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* DEBUG */
+
+.navbar .wrapper{
+    background-color: red;
+}
+
+.call-to-action .wrapper{
+    background-color: blue;
+}
+
+.navbar{
+    background-color: aquamarine;
+}
+
+.navbar .wrapper{
+    background-color: blueviolet;
+}
+
+.navbar .logo, .navbar .login{
+    background-color: green;
+}
+
+.navbar .navbar-nav{
+    background-color: orange;
+}
+
+/* END DEBUG */
+
+
+/* GLOBAL */
+
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+
+/* NAVBAR */
+
+.navbar{
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.navbar .wrapper{
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+}
+
+.navbar .logo, .navbar .login{
+    width: 20%;
+    background-color: green;
+}
+
+.navbar .navbar-nav{
+    width: 60%;
+    text-align: center;
+    background-color: orange;
+}
+
+.navbar-nav ul{
+    list-style-type: none;
+}
+
+.navbar-nav ul li{
+    display: inline-block;
+}
+
+/* CALL TO ACTION */
+
