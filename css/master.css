@@ -6,64 +6,75 @@
 
 /* DEBUG */
 
+.color-grey{
+    background-color: #d3d3d3;
+}
+
+.color-darkgrey{
+    background-color: #23272a;
+}
+
+
 .navbar.debug .row{
-    background-color: red;
+    background-color: #daa520;
     height: 50px;
 }
 
 .navbar.debug{
-    background-color: aquamarine;
+    background-color: #add8e6;
 }
 
 .navbar.debug .row{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .navbar.debug .logo, .navbar .login{
-    background-color: green;
+    /* background-color: green; */
 }
 
 .navbar.debug .navbar-nav{
-    background-color: orange;
+    /* background-color: orange; */
 }
 
 
 .cta.debug {
-    background-color: crimson;
+    background-color: #00008b;
 }
 
 .cta.debug .row .cta-container{
     min-height: 500px;
-    background-color: bisque;
+    background-color: #ee82ee;
 }
 
 
 .debug .col-4x{
-    background-color: brown;
+    background-color: #1e90ff;
     min-height: 100px;
     border: 1px dashed black;
 }
 
 .debug .col-2x{
-    background-color:darkolivegreen;
+    background-color:#ffc0cb;
     min-height: 100px;
     border: 1px dashed black;
 }
 
 .debug .col-1x{
-    background-color: greenyellow;
+    background-color: #20b2aa;
     min-height: 100px;
     border: 1px dashed black;
 }
 
 
-section .debug{
-    height: 400px;
+
+
+.debug .block-container{
+    background-color: #228b22;
+    height: 600px;
 }
 
-.block-row.debug{
-    background-color: gray;
-    height: 600px;
+.debug.footer-bottom .row{
+    background-color: #7fffd4;
 }
 
 
@@ -118,7 +129,6 @@ section .debug{
 .navbar .navbar-nav{
     width: 60%;
     text-align: center;
-    background-color: orange;
 }
 
 .navbar-nav ul{
@@ -142,16 +152,21 @@ section .debug{
     width: 70%;
 }
 
+/* MAIN */
+
+
 
 /* FOOTER */
 
 footer{
-    padding: 20px;
+    padding: 30px 0px;
+}
+
+.footer-menu{
+    margin-bottom: 40px;
 }
 
 .footer-bottom .row{
-    border-top: 1px solid red;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    border-top: 1px solid #9a9a9a;
     justify-content: space-between;
 }
