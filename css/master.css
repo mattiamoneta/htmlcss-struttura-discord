@@ -6,28 +6,38 @@
 
 /* DEBUG */
 
-.navbar .wrapper{
+.navbar.debug .row{
     background-color: red;
 }
 
-.call-to-action .wrapper{
-    background-color: blue;
-}
-
-.navbar{
+.navbar.debug{
     background-color: aquamarine;
 }
 
-.navbar .wrapper{
+.navbar.debug .row{
     background-color: blueviolet;
 }
 
-.navbar .logo, .navbar .login{
+.navbar.debug .logo, .navbar .login{
     background-color: green;
 }
 
-.navbar .navbar-nav{
+.navbar.debug .navbar-nav{
     background-color: orange;
+}
+
+
+.cta.debug  .row{
+    background-color: blue;
+}
+
+.cta.debug {
+    background-color: crimson;
+}
+
+.cta.debug .row .cta-container{
+    min-height: 500px;
+    background-color: bisque;
 }
 
 /* END DEBUG */
@@ -35,7 +45,8 @@
 
 /* GLOBAL */
 
-.wrapper{
+.row{
+    display: flex;
     width: 1170px;
     margin: auto;
 }
@@ -44,11 +55,10 @@
 
 .navbar{
     background-color: aquamarine;
-    padding: 20px;
+    padding: 10px;
 }
 
-.navbar .wrapper{
-    display: flex;
+.navbar .row{
     justify-content: space-between;
     background-color: blueviolet;
 }
@@ -74,3 +84,16 @@
 
 /* CALL TO ACTION */
 
+.cta{
+    padding: 50px;
+}
+
+.cta .row{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cta .row .cta-container{
+    width: 70%;
+}
