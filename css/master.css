@@ -8,6 +8,7 @@
 
 .navbar.debug .row{
     background-color: red;
+    height: 50px;
 }
 
 .navbar.debug{
@@ -27,10 +28,6 @@
 }
 
 
-.cta.debug  .row{
-    background-color: blue;
-}
-
 .cta.debug {
     background-color: crimson;
 }
@@ -40,14 +37,33 @@
     background-color: bisque;
 }
 
-.debug .col-img{
+
+.debug .col-4x{
     background-color: brown;
-    height: 50px;
+    min-height: 100px;
+    border: 1px dashed black;
 }
 
-.debug .col-text{
+.debug .col-2x{
     background-color:darkolivegreen;
-    height: 50px;
+    min-height: 100px;
+    border: 1px dashed black;
+}
+
+.debug .col-1x{
+    background-color: greenyellow;
+    min-height: 100px;
+    border: 1px dashed black;
+}
+
+
+section .debug{
+    height: 400px;
+}
+
+.block-row.debug{
+    background-color: gray;
+    height: 600px;
 }
 
 
@@ -60,36 +76,43 @@
     padding: 50px 0px;
 }
 
+.block-row{
+    width: 1170px;
+    margin: auto;
+}
+
 .row{
     display: flex;
     width: 1170px;
     margin: auto;
 }
 
-.col-img{
-    width: 60%;
+
+.col-1x{
+    width: calc(100% / 6);
 }
 
-.col-text{
-    width: 40%;
+.col-2x{
+    width: calc(100% / 6 * 2);
 }
 
+.col-4x{
+    width: calc(100% / 6 * 4);
+}
 
 /* NAVBAR */
 
 .navbar{
-    background-color: aquamarine;
     padding: 10px;
 }
 
 .navbar .row{
     justify-content: space-between;
-    background-color: blueviolet;
+    align-items: center;
 }
 
 .navbar .logo, .navbar .login{
     width: 20%;
-    background-color: green;
 }
 
 .navbar .navbar-nav{
@@ -120,9 +143,15 @@
 }
 
 
-/* 2-COL SECTION */
+/* FOOTER */
 
+footer{
+    padding: 20px;
+}
 
-
-
-/* 1-COL SECTION */
+.footer-bottom .row{
+    border-top: 1px solid red;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
