@@ -40,16 +40,40 @@
     background-color: bisque;
 }
 
+.debug .col-img{
+    background-color: brown;
+    height: 50px;
+}
+
+.debug .col-text{
+    background-color:darkolivegreen;
+    height: 50px;
+}
+
+
 /* END DEBUG */
 
 
-/* GLOBAL */
+/* GLOBAL ROW AND COLUMNS */
+
+.v-spacing{
+    padding: 50px 0px;
+}
 
 .row{
     display: flex;
     width: 1170px;
     margin: auto;
 }
+
+.col-img{
+    width: 60%;
+}
+
+.col-text{
+    width: 40%;
+}
+
 
 /* NAVBAR */
 
@@ -84,9 +108,6 @@
 
 /* CALL TO ACTION */
 
-.cta{
-    padding: 50px;
-}
 
 .cta .row{
     justify-content: center;
@@ -97,3 +118,11 @@
 .cta .row .cta-container{
     width: 70%;
 }
+
+
+/* 2-COL SECTION */
+
+
+
+
+/* 1-COL SECTION */
