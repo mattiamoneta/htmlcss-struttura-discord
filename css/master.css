@@ -51,20 +51,26 @@
     background-color: #1e90ff;
     min-height: 100px;
     border: 1px dashed black;
+    height: 400px;
 }
 
 .debug .col-2x{
     background-color:#ffc0cb;
     min-height: 100px;
     border: 1px dashed black;
+    height: 400px;
 }
 
 .debug .col-1x{
     background-color: #20b2aa;
     min-height: 100px;
     border: 1px dashed black;
+    height: 400px;
 }
 
+.footer-bottom.debug  .col-1x{
+    height: auto;
+}
 
 
 
